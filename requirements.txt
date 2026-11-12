@@ -1,0 +1,6 @@
+fastapi>=0.110
+uvicorn>=0.29
+numpy
+scikit-learn
+# optional (real multilingual embeddings, see app/embedder.py):
+# sentence-transformers

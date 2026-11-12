@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZIMAAM | زِمام</title>
+<meta name="description" content="ZIMAAM: enterprise security and governance layer for AI agents. وكلاء تنطلق، وحدود لا تُخترق.">
+<link rel="icon" type="image/svg+xml" href="/static/img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+<header class="lp-nav">
+  <div class="wrap">
+    <span data-brand="/" style="color:#fff"></span>
+    <nav aria-label="Main">
+      <a class="l" href="#how" data-i18n="nav.how"></a>
+      <a class="l" href="#features" data-i18n="nav.features"></a>
+      <a class="l" href="#arch" data-i18n="nav.arch"></a>
+      <a class="l" href="#try" data-i18n="nav.try"></a>
+      <span id="langslot"></span>
+      <a class="btn primary sm" href="/portal" data-i18n="nav.explore"></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="top">
+  <div class="grid" id="heroGrid"></div>
+  <div class="wrap">
+    <div>
+      <h1 data-i18n="hero.h1"></h1>
+      <p class="tag" data-i18n="tagline"></p>
+      <p class="lead" data-i18n="hero.lead"></p>
+      <div class="cta">
+        <a class="btn primary" href="/portal" data-i18n="hero.cta1"></a>
+        <a class="btn onDark" href="#how" data-i18n="hero.cta2"></a>
+      </div>
+      <p class="note" data-i18n="hero.note"></p>
+    </div>
+    <div>
+      <div id="flow"></div>
+      <div class="legend" style="color:#9fb3d3;justify-content:center;margin-top:10px">
+        <span><i style="background:#22cde0"></i><span data-i18n="flow.ok"></span></span>
+        <span><i style="background:#e59a0f"></i><span data-i18n="flow.flag"></span></span>
+        <span><i style="background:#ff5d73"></i><span data-i18n="flow.block"></span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="problem">
+  <div class="wrap">
+    <div class="sechead reveal"><h2 data-i18n="prob.h"></h2><p class="sub" data-i18n="prob.sub"></p></div>
+    <div class="vs reveal" id="vs"></div>
+  </div>
+</section>
+
+<section class="sec" id="how">
+  <div class="wrap">
+    <div class="sechead reveal"><h2 data-i18n="how.h"></h2><p class="sub" data-i18n="how.sub"></p></div>
+    <div class="steps reveal"><div class="tabs" role="tablist" id="tabs"></div><div class="stage" id="stage" role="tabpanel"></div></div>
+  </div>
+</section>
+
+<section class="sec alt" id="features">
+  <div class="wrap">
+    <div class="sechead reveal"><h2 data-i18n="feat.h"></h2></div>
+    <div class="feats reveal" id="feats"></div>
+  </div>
+</section>
+
+<section class="sec dark" id="arch">
+  <div class="wrap">
+    <div class="sechead reveal"><h2 data-i18n="arch.h"></h2><p class="sub" data-i18n="arch.sub"></p></div>
+    <div class="reveal" id="archsvg"></div>
+    <div class="banner warn reveal" style="margin-top:22px;background:#ffffff12;color:#f4d9a8"><span data-i18n="arch.note"></span></div>
+    <div class="facts reveal" id="facts"></div>
+    <p class="sm" style="color:#7f93b4;margin-top:10px" data-i18n="facts.note"></p>
+  </div>
+</section>
+
+<section class="sec" id="try">
+  <div class="wrap">
+    <div class="sechead reveal"><h2 data-i18n="try.h"></h2><p class="sub" data-i18n="try.sub"></p></div>
+    <div class="try reveal">
+      <ol id="trylist"></ol>
+      <div class="card pad" style="display:grid;gap:14px;align-content:start">
+        <h3 data-i18n="try.card"></h3>
+        <p class="muted" data-i18n="try.cardp"></p>
+        <a class="btn primary" href="/portal" data-i18n="try.b1"></a>
+        <a class="btn" href="/dashboard" data-i18n="try.b2"></a>
+        <p class="sm muted" data-i18n="try.same"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-final">
+  <div class="wrap reveal">
+    <h2 data-i18n="cta.h"></h2>
+    <p class="tag" style="color:var(--cyan);margin-top:14px;font-weight:600" data-i18n="tagline"></p>
+    <div class="cta"><a class="btn primary" href="/portal" data-i18n="hero.cta1"></a><a class="btn onDark" href="/dashboard" data-i18n="try.b2"></a></div>
+  </div>
+</section>
+</main>
+
+<footer class="lp">
+  <div class="wrap">
+    <span data-brand="/" style="color:#fff"></span>
+    <div><a href="#how" data-i18n="nav.how"></a><a href="#features" data-i18n="nav.features"></a><a href="/portal" data-i18n="foot.portal"></a><a href="/dashboard" data-i18n="foot.dash"></a><a href="/story" data-i18n="foot.story"></a></div>
+    <span data-i18n="foot.demo"></span>
+  </div>
+</footer>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/landing.js"></script>
+</body>
+</html>
